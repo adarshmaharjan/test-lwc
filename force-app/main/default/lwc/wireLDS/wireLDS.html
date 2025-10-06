@@ -1,0 +1,18 @@
+<template>
+  <lightning-card
+    icon-name="custom:custom108"
+    variant="base"
+    title="Wire Lightning Data Service"
+  >
+    <template lwc:if={account.data}>
+      <p class="accountName">Account Name: {name}</p>
+      <p class="accountIndustry">Industry: {industry}</p>
+      <p class="accountPhone">Phone: {phone}</p>
+      <p class="accountOwner">Owner: {owner}</p>
+    </template>
+
+    <template lwc:if={account.error}>
+      <p>No account found.</p>
+    </template>
+  </lightning-card>
+</template>
