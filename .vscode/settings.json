@@ -4,5 +4,8 @@
     "**/bower_components": true,
     "**/.sf": true,
     "**/.sfdx": true
-  }
+  },
+  "cSpell.words": [
+    "sfdx"
+  ]
 }
